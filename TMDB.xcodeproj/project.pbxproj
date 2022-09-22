@@ -13,6 +13,7 @@
 		3C377F7628C59EAA007A496B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C377F7528C59EAA007A496B /* Preview Assets.xcassets */; };
 		3C377F7828C59EAA007A496B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C377F7728C59EAA007A496B /* Persistence.swift */; };
 		3C377F7B28C59EAA007A496B /* TMDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C377F7928C59EAA007A496B /* TMDB.xcdatamodeld */; };
+		3C4014C228DCD52800D2BA73 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4014C128DCD52800D2BA73 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3C377F7528C59EAA007A496B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C377F7728C59EAA007A496B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3C377F7A28C59EAA007A496B /* TMDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TMDB.xcdatamodel; sourceTree = "<group>"; };
+		3C4014C128DCD52800D2BA73 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		3C377F6D28C59EA9007A496B /* TMDB */ = {
 			isa = PBXGroup;
 			children = (
+				3C4014C028DCD50A00D2BA73 /* NetworkLayer */,
 				3C377F6E28C59EA9007A496B /* TMDBApp.swift */,
 				3C377F7028C59EA9007A496B /* ContentView.swift */,
 				3C377F7228C59EAA007A496B /* Assets.xcassets */,
@@ -71,6 +74,14 @@
 				3C377F7528C59EAA007A496B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C4014C028DCD50A00D2BA73 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				3C4014C128DCD52800D2BA73 /* APIService.swift */,
+			);
+			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C377F7B28C59EAA007A496B /* TMDB.xcdatamodeld in Sources */,
+				3C4014C228DCD52800D2BA73 /* APIService.swift in Sources */,
 				3C377F7828C59EAA007A496B /* Persistence.swift in Sources */,
 				3C377F7128C59EA9007A496B /* ContentView.swift in Sources */,
 				3C377F6F28C59EA9007A496B /* TMDBApp.swift in Sources */,
